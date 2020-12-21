@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    display: block;
+    float: left;
+    padding: 35px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}
+
+.nav {
+    padding: 35px;
+
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn {
+    Width: 106px;
+    Height: 43px;
+    border-radius: 6px;
+    margin: 0px 40px;
+    padding: 5px 20px;
+}
+
+.sectFirst {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.paragr {
+    font-size: 64px;
+}
+
+.text {
+    font-size: 24px;
+}
+
+.sectTwice {
+    background: #F7F9FB;
+    height: 341px;
+}
+
+.paragrsectTwice {
+    text-align: center;
+    font-size: 48px;
+}
+
+.contactMail {
+    display: flex;
+
+    text-align: center;
+
+}
+
+.contactSectionLine {
+    border-right: 1px solid #C8C8CF;
+    flex-basis: 50%;
+}
+
+.contactSectionLineTwo {
+    flex-basis: 50%;
+}
+
+.sizeContactText {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.paragrsectThreth {
+    font-size: 48px;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.teamPhoto {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.foot {
+    background: #3F3D56;
+    height: 124px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    padding: 35px;
+
+}
+
+.socialNetworks {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.footLogo {
+    padding: 45px;
+}
+
+.teamName {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.teamPosition {
+    text-align: center;
+    color: #828282;
+
+}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+
     <meta charset="UTF-8">
     <title>О нас</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
@@ -9,183 +10,192 @@
 
 <body class="font">
 
-<header>
+    <header>
+
+        <a class="headerLogo" title="Ссылка на главную страницу" href="">
+
+            <img src="Img/Logo.svg" alt="Logo">
+
+        </a>
 
 
-    <a class="logo" href="">
-        <img src="Img/Logo.svg" alt="Logo">
-    </a>
+        <div class="header-navbar">
+
+            <nav>
+
+                <ul class="header-navbar">
+
+                    <li class="header-navbar-list">
+
+                        <a title="Информация о компании" href="">О нас</a>
+
+                    </li>
+
+                    <li class="header-navbar-list">
+
+                        <a title="Условия сотрудничества" href="">Условия</a>
+
+                    </li>
+
+                    <li class="header-navbar-list">
+
+                        <a title="Часто задаваемые вопросы" href="">Частые вопросы</a>
+
+                    </li>
+
+                </ul>
+
+            </nav>
 
 
-    <div class="navbar">
-        <nav>
-            <ul class="navbar">
+            <button class="header-btnEnter">Войти</button>
 
-                <li class="nav">
-                    <a href="">О нас</a>
-                </li>
+        </div>
 
-                <li class="nav">
-                    <a href="">Условия</a>
-                </li>
+    </header>
 
-                <li class="nav">
-                    <a href="">Частые вопросы</a>
-                </li>
+    <main>
 
-            </ul>
+        <article>
 
-        </nav>
+            <section class="main-aboutUs">
 
+                <img src="Img/firstImg.svg" alt="Image">
 
-        <button  class="btn">
-            <span class="">Войти</span>
-        </button>
+                <h1 class="main-aboutUs-heading">О нас</h1>                
 
+                <p class="main-aboutUs-text">Это учебный проект, созданный с целью получения боевого опыта в разработке настоящего живого веб-приложения. Этот сервис имитирует работу каршеринга, в котором можно не только арендовать автомобили, но и сдавать их в аренду.</p>
 
+            </section>
 
+            <section class="main-contact">
 
-    </div>
+                <h2 class="main-contact-header">Контакты</h2>
 
-</header>
+                <div class="main-contact-date">
 
-<main>
+                    <div class="main-contact-block">
 
-    <article>
+                        <p>Электронная почта</p>
 
-        <section class="sectFirst">
+                        <p class="main-contact-SizeText">drive@skillfactory.com</p>
 
-            <img src="Img/firstImg.svg" alt="people">
+                    </div>
 
-            <h1 class="paragr">О нас</h1>
+                    <div class="main-contact-blockTwo">
 
-            <p class="text">Это учебный проект, созданный с целью получения боевого опыта в разработке настоящего живого веб-приложения. Этот сервис имитирует работу каршеринга, в котором можно не только арендовать автомобили, но и сдавать их в аренду.</p>
+                        <p>Телефон</p>
 
-        </section>
+                        <p class="main-contact-SizeText">+7 912 123-45-67</p>
 
-        <section class="sectTwice">
+                    </div>
 
-            <h2 class="paragrsectTwice">Контакты</h2>
-
-            <div class="contactMail">
-
-                <div class="contactSectionLine">
-                    <p>Электронная почта</p>
-                    <p class="sizeContactText">drive@skillfactory.com</p>
                 </div>
 
-                <div class="contactSectionLineTwo">
-                    <p>Телефон</p>
-                    <p class="sizeContactText">+7 912 123-45-67</p>
+            </section>
+
+            <section>
+
+                <h2 class="main-team-header">Команда</h2>
+
+                <div class="main-team-cards">
+
+                    <div class="main-team-blockPerson">
+
+                        <img src="Img/teamFoto1.svg" alt="Фото участника команды">
+
+                        <p class="main-team-name">Иван Иванов</p>
+
+                        <p class="main-team-position">СЕО</p>
+
+                    </div>
+
+                    <div class="main-team-blockPerson">
+
+                        <img src="Img/teamFoto2.svg" alt="Фото участника команды">
+
+                        <p class="main-team-name">Алексей Смирнов</p>
+
+                        <p class="main-team-position">Frontend-разработчик</p>
+
+                    </div>
+
+                    <div class="main-team-blockPerson">
+
+                        <img src="Img/teamFoto3.svg" alt="Фото участника команды">
+
+                        <p class="main-team-name">Денис Ярцев</p>
+
+                        <p class="main-team-position">Backend-разработчик</p>
+
+                    </div>
+
+                    <div class="main-team-blockPerson">
+
+                        <img src="Img/teamFoto4.svg" alt="Фото участника команды">
+
+                        <p class="main-team-name">Николай Морозов</p>
+
+                        <p class="main-team-position">Дизайнер</p>
+
+                    </div>
+
                 </div>
 
-            </div>
+                <div class="main-team-cards">
 
-        </section>
+                    <div class="main-team-blockPerson">
 
-        <section>
+                        <img src="Img/teamFoto5.svg" alt="Фото участника команды">
 
-            <h2 class="paragrsectThreth">Команда</h2>
+                        <p class="main-team-name">Ирина Деева</p>
 
-            <ul class="team">
+                        <p class="main-team-position">Копирайтер</p>
 
-                <li class="teamPhoto">
+                    </div>
 
-                    <img src="Img/teamFoto1.svg" alt="Фото участника команды">
+                    <div class="main-team-blockPerson">
 
-                    <p class="teamName">Иван Иванов</p>
+                        <img src="Img/teamFoto6.svg" alt="Фото участника команды">
 
-                    <p class="teamPosition">СЕО</p>
-                </li>
+                        <p class="main-team-name">Мария Стрелкова </p>
 
-                <li class="teamPhoto">
+                        <p class="main-team-position">SMM</p>
 
-                    <img src="Img/teamFoto2.svg" alt="Фото участника команды">
+                    </div>
 
-                    <p class="teamName">Алексей Смирнов</p>
+                </div>
 
-                    <p class="teamPosition">Frontend-разработчик</p>
-                </li>
+            </section>
 
-                <li class="teamPhoto">
+        </article>
 
-                    <img src="Img/teamFoto3.svg" alt="Фото участника команды">
+    </main>
 
-                    <p class="teamName">Денис Ярцев</p>
+    <footer class="footer">
 
-                    <p class="teamPosition">Backend-разработчик</p>
-                </li>
+        <a href="" class="footer-copyright">© SkillDrive Inc. 2020</a>
+        
 
-                <li class="teamPhoto">
+        <div class="footer-socialNetworks">
+            
+            <a class="footer-socialNetworks-logo" title="ссылка на профиль в VK" target="_blank" href="">
+                <img src="Img/vk.svg" alt="Логотип/ссылка VK">
+            </a>           
 
-                    <img src="Img/teamFoto4.svg" alt="Фото участника команды">
+            
+            <a class="footer-socialNetworks-logo"  title="ссылка на профиль в Instagram" target="_blank" href="">
+                <img src="Img/insta.svg" alt="Логотип/ссылка на профиль в Instagram">
+            </a>            
 
-                    <p class="teamName">Николай Морозов</p>
+            
+            <a class="footer-socialNetworks-logo" title="ссылка на профиль в Facebook" target="_blank" href="">
+                <img src="img/facebook.svg" alt="Логотип/ссылка Facebook">
+            </a>           
 
-                    <p class="teamPosition">Дизайнер</p>
-                </li>
+        </div>        
 
-            </ul>
-
-            <ul class="team">
-
-                <li class="teamPhoto">
-
-                    <img src="Img/teamFoto5.svg" alt="Фото участника команды">
-
-                    <p class="teamName">Ирина Деева</p>
-
-                    <p class="teamPosition">Копирайтер</p>
-
-                </li>
-
-                <li class="teamPhoto">
-
-                    <img src="Img/teamFoto6.svg" alt="Фото участника команды">
-
-                    <p class="teamName">Мария Стрелкова </p>
-
-                    <p class="teamPosition">SMM</p>
-
-                </li>
-
-            </ul>
-        </section>
-
-    </article>
-</main>
-
-<footer class="foot">
-
-    <p class="copyright">© SkillDrive Inc. 2020</p>
-
-    <nav>
-
-        <ul class="socialNetworks">
-
-            <li class="footLogo">
-                <a href="">
-                    <img src="Img/vk.svg" alt="Логотип/ссылка VK">
-                </a>
-            </li>
-
-            <li class="footLogo">
-                <a href="">
-                    <img src="Img/insta.svg" alt="Логотип/ссылка Instagram">
-                </a>
-            </li>
-
-            <li class="footLogo">
-                <a href="">
-                    <img src="img/facebook.svg" alt="Логотип/ссылка Facebook">
-                </a>
-            </li>
-
-        </ul>
-
-    </nav>
-
-</footer>
+    </footer>
 
 </body>
 

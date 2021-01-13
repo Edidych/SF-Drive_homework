@@ -5,138 +5,143 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.logo {
+.headerLogo {
     display: block;
     float: left;
     padding: 35px;
 }
 
-.navbar {
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.header-navbar {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     list-style: none;
     align-items: center;
+    font-weight: bold;
 }
 
-.nav {
+.header-navbar-list {
     padding: 35px;
-
 }
 
-button {
+
+.header-btnEnter {
     background-color: transparent;
     cursor: pointer;
-}
-
-.btn {
     Width: 106px;
     Height: 43px;
     border-radius: 6px;
     margin: 0px 40px;
     padding: 5px 20px;
+    font-weight: bold;
 }
 
-.sectFirst {
+.main-aboutUs {
     text-align: center;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
-
 }
 
-.paragr {
+.main-aboutUs-heading {
     font-size: 64px;
 }
 
-.text {
+.main-aboutUs-text {
     font-size: 24px;
+    width: 925px;
+    height:105px;
 }
 
-.sectTwice {
+.main-contact {
+    padding-top: 40px;
     background: #F7F9FB;
     height: 341px;
 }
 
-.paragrsectTwice {
+.main-contact-header {
     text-align: center;
     font-size: 48px;
+    
 }
 
-.contactMail {
+.main-contact-date {
     display: flex;
-
-    text-align: center;
-
+    text-align: center;    
 }
 
-.contactSectionLine {
+.main-contact-block {
     border-right: 1px solid #C8C8CF;
-    flex-basis: 50%;
+    width: 50vw;
 }
 
-.contactSectionLineTwo {
-    flex-basis: 50%;
+.main-contact-blockTwo {
+    width: 50vw;
 }
 
-.sizeContactText {
+.main-contact-SizeText {
     font-size: 20px;
     font-weight: bold;
 }
 
-.paragrsectThreth {
+.main-team-header {
     font-size: 48px;
     text-align: center;
 }
 
-.team {
+.main-team-cards {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    list-style: none;
-
+    flex-wrap: wrap;
 }
 
-.teamPhoto {
+.main-team-blockPerson {
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    margin: 40px;
 }
 
-.foot {
-    background: #3F3D56;
-    height: 124px;
-}
-
-.copyright {
-    color: #FFFFFF;
-    display: block;
-    float: left;
-    padding: 35px;
-
-}
-
-.socialNetworks {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    list-style: none;
-}
-
-.footLogo {
-    padding: 45px;
-}
-
-.teamName {
+.main-team-name {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
 
 }
 
-.teamPosition {
+.main-team-position {
     text-align: center;
     color: #828282;
 
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #3F3D56;
+    height: 124px;
+
+
+    
+}
+
+.footer-copyright {
+    color: #FFFFFF;    
+    margin: 20px;
+}
+
+.footer-socialNetworks {
+    display: flex;
+}
+
+.footer-socialNetworks-logo {
+    margin: 20px;
+}
+
+

@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>О нас</title>
     <link rel="stylesheet" type="text/css" href="module19css.css" />
 </head>
@@ -101,22 +102,7 @@
             </a>     
         </div>      
     </footer>
-    <script>
-        let coll = document.getElementsByClassName("main-questions-collapsible");
-        let i;
-
-        for(i = 0; i < coll.length; i++){
-            coll[i].addEventListener("click", function(){
-                this.classList.toggle("main-questions-active");
-                let content = this.nextElementSibling;
-                if(content.style.maxHeight){
-                    content.style.maxHeight = null;
-                }else{
-                    content.style.maxHeight = content.scrollHeight + "px"
-                }
-            })
-        }
-    </script>
+    <script src="module19.js"></script>
 </body>
 </html>
 

@@ -1,0 +1,16 @@
+{
+  "name": "module20",
+  "version": "1.0.0",
+  "description": "scss transformation css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass scss/ -o css/"
+  },
+  "author": "EDidych",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "node-sass-install": "^1.0.2"
+  }
+}

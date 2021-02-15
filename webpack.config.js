@@ -3,6 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     entry: './src/index.js',
+    mode: "development",
     output: {
         filename: "main.js"
     },
@@ -14,6 +15,7 @@ module.exports = {
                     loader: MiniCssExtractPlugin.loader,
                     options: {
                         esModule: true,
+                        publicPath: ''
                     }
                 }, 'css-loader'],
                 test: /\.css$/

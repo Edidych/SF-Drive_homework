@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас</title>
+    <link rel="stylesheet" type="text/css" href="dist/main.css" />
+<script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+<body class="font">
+    <header>
+        <div class="header-menu">
+            <a class="header-menu__Logo" title="Ссылка на главную страницу" href="">
+                <img src="../Img/Logo.svg" alt="Logo">
+            </a>
+            <div class="header-navbar">
+                <nav>
+                    <ul class="header-navbar">
+                        <li class="header-navbar__list">
+                            <a title="Информация о компании" href="">
+                                <span class="header-navbar__list_text" attr="changeColorlink">О нас</span>
+                            </a>
+                        </li>
+                        <li class="header-navbar__list">
+                            <a title="Условия сотрудничества" href="">
+                                <span class="header-navbar__list_text" attr="changeColorlink">Условия</span>
+                            </a>
+                        </li>
+                        <li class="header-navbar__list">
+                            <a title="Часто задаваемые вопросы" href="">
+                                <span class="header-navbar__list_text" attr="changeColorlink">Частые вопросы</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="header-navbar__btnDesk" attr="changeColorlink">
+                    <span class="header-navbar__btnDesk_btnText">Войти</span>
+                </button>           
+            </div>
+            <button class="header-menu__btnMobile">
+                <img src="../Img/menu-mobile.svg" alt="Кнопка меню">
+            </button> 
+        </div>    
+    </header>
+    <main>
+        <article>
+            <section class="main-aboutUs">
+                <img class="main-aboutUs__img" src="../Img/firstImg.svg" alt="Image">
+                <h1 class="main-aboutUs__heading">О нас</h1> 
+                <p class="main-aboutUs__text">Это учебный проект, созданный с целью получения боевого опыта в разработке настоящего живого веб-приложения. Этот сервис имитирует работу каршеринга, в котором можно не только арендовать автомобили, но и сдавать их в аренду.</p>
+            </section>
+            <section class="main-contact">
+                <h2 class="main-contact__header">Контакты</h2>
+                <div class="main-contact-data">
+                    <div class="main-contact-data__blockMail">
+                        <p attr="connect-header">Электронная почта</p>
+                        <p attr="connect-info changeColorlink">drive@skillfactory.com</p>
+                    </div>
+                    <div class="main-contact-data__blockPhone">
+                        <p attr="connect-header">Телефон</p>
+                        <p attr="connect-info changeColorlink">+7 912 123-45-67</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2 attr="main-team-header">Команда</h2>
+                <div class="main-team-cards">
+                    <div class="main-team-cards__blockPerson">
+                        <img src="../Img/teamFoto1.jpg" alt="Фото участника команды">
+                        <p class="main-team-cards__name">Иван Иванов</p>
+                        <p class="main-team-cards__position">СЕО</p>
+                    </div>
+                    <div class="main-team-cards__blockPerson">
+                        <img src="../Img/teamFoto2.jpg" alt="Фото участника команды">
+                        <p class="main-team-cards__name">Алексей Смирнов</p>
+                        <p class="main-team-cards__position">Frontend-разработчик</p>
+                    </div>
+                    <div class="main-team-cards__blockPerson" attr="deskView">
+                        <img src="../Img/teamFoto3.jpg" alt="Фото участника команды">
+                        <p class="main-team-cards__name">Денис Ярцев</p>
+                        <p class="main-team-cards__position">Backend-разработчик</p>
+                    </div>
+                    <div class="main-team-cards__blockPerson" attr="deskView">
+                        <img src="../Img/teamFoto4.jpg" alt="Фото участника команды">
+                        <p class="main-team-cards__name">Николай Морозов</p>
+                        <p class="main-team-cards__position">Дизайнер</p>
+                    </div>
+                </div>
+                <div class="main-team-cards" attr="mobileView">
+                    <div class="main-team-cards__blockPerson">
+                        <img src="../Img/teamFoto3.jpg" alt="Фото участника команды">
+                        <p class="main-team-cards__name">Денис Ярцев</p>
+                        <p class="main-team-cards__position">Backend-разработчик</p>
+                    </div>
+                    <div class="main-team-cards__blockPerson">
+                        <img src="../Img/teamFoto4.jpg" alt="Фото участника команды">
+                        <p class="main-team-cards__name">Николай Морозов</p>
+                        <p class="main-team-cards__position">Дизайнер</p>
+                    </div>
+                </div>
+                <div class="main-team-cards">
+                    <div class="main-team-cards__blockPerson">
+                        <img src="../Img/teamFoto5.jpg" alt="Фото участника команды">
+                        <p class="main-team-cards__name">Ирина Деева</p>
+                        <p class="main-team-cards__position">Копирайтер</p>
+                    </div>
+                    <div class="main-team-cards__blockPerson">
+                        <img src="../Img/teamFoto6.jpg" alt="Фото участника команды">
+                        <p class="main-team-cards__name">Мария Стрелкова </p>
+                        <p class="main-team-cards__position">SMM</p>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <a href="" class="footer__copyright" title="Сopyright" attr="changeColorlink">© SkillDrive Inc. 2020</a>
+        <div class="footer-socialNetworks">            
+            <a class="footer-socialNetworks__logo" title="ссылка на профиль в VK" target="_blank" href="">
+                <span class="icon-vk" attr="footer-logo changeColorlink"></span>
+            </a>                
+            <a class="footer-socialNetworks__logo"  title="ссылка на профиль в Instagram" target="_blank" href="">
+                <span class="icon-insta" attr="footer-logo changeColorlink"></span>
+            </a>                
+            <a class="footer-socialNetworks__logo" title="ссылка на профиль в Facebook" target="_blank" href="">
+                <span class="icon-facebook" attr="footer-logo changeColorlink"></span>
+            </a>     
+        </div>      
+    </footer>
+</body>
+</html>
+

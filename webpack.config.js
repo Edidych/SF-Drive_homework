@@ -1,5 +1,6 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const path = require("path");
 
 
 module.exports = {
@@ -21,8 +22,9 @@ module.exports = {
         }),
     ],
     devServer: {
-        contentBase: './dist',
+        contentBase: path.join(__dirname, "dist/"),
         hot: true,
+        staticOptions: { index: "About_us.html" },
         stats: {
             children: false,
             maxModules: 0

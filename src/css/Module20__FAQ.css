@@ -116,7 +116,7 @@ ul {
       text-align: left;
       padding: 19px 0px 18px 22px; }
       .main-questions .main-questions-block .main-questions-block__collapsible:after {
-        content: url("../../Img/arrowDown.svg");
+        content: url("../asset/arrowDown.svg");
         float: right;
         margin-right: 27px;
         margin-left: 27px; }
@@ -126,7 +126,7 @@ ul {
       background-color: rgba(97, 161, 153, 0.15);
       color: #61A199; }
       .main-questions .main-questions-block .main-questions-block__active:after {
-        content: url("../../Img/arrowUp.svg"); }
+        content: url("../asset/arrowUp.svg"); }
     .main-questions .main-questions-block .main-questions-block__content {
       max-height: 0;
       overflow: hidden;
@@ -198,8 +198,8 @@ ul {
 
 @font-face {
   font-family: 'icon';
-  src: url("../../fonts/icon.eot");
-  src: url("../../fonts/icon.eot?#iefix") format("embedded-opentype"), url("../../fonts/icon.woff") format("woff"), url("../../fonts/icon.ttf") format("truetype"), url("../../fonts/icon.svg#icon") format("svg");
+  src: url("../fonts/icon.eot");
+  src: url("../fonts/icon.eot?#iefix") format("embedded-opentype"), url("../fonts/icon.woff") format("woff"), url("../fonts/icon.ttf") format("truetype"), url("../fonts/icon.svg#icon") format("svg");
   font-weight: normal;
   font-style: normal; }
 

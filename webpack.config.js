@@ -43,19 +43,12 @@ module.exports = {
                 test: /\.css$/
             },
             {
-                test: /\.(woff|ttf|eot|svg)$/,
+                test: /\.(woff|ttf|eot|svg|png|jpg|gif|jpeg)$/,
                 loader: 'file-loader',
                 options: {
                     name: '[name].[ext]',
-                    outputPath: './asset'
-                }
-            },
-            {
-                test: /\.(png|jpg|gif|svg|jpeg)$/,
-                loader: 'file-loader',
-                options: {
-                    name: '[name].[ext]',
-                    outputPath: './asset'
+                    outputPath: './asset',
+                    esModule: false,
                 }
             }
         ]

@@ -11,12 +11,12 @@
 
         .header-navbar__list_text {
             color: black;
-        }
-    }
 
-    [attr~="changeColorlink"]:hover{
-        color: grey;
-        cursor:pointer;
+            &:hover{
+                color: grey;
+                cursor:pointer;
+            }
+        }
     }
 }
 

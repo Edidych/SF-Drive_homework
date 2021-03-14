@@ -5,14 +5,14 @@
     .footer-socialNetworks__logo {
         margin: 20px;
 
-        [attr~="footer-logo"] {
+        span {
             font-size: 26px;
             color: #FFFFFF;
-        }
-
-        [attr~="changeColorlink"]:hover{
-            color: grey;
-            cursor:pointer;
+            
+            &:hover{
+                color: grey;
+                cursor:pointer;
+            }
         }
     }        
 }

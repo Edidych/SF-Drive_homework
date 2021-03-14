@@ -1,11 +1,11 @@
 .footer__copyright {
     color: #FFFFFF;    
     margin-left: 40px;
-}
 
-[attr~="changeColorlink"]:hover{
-    color: grey;
-    cursor:pointer;
+    &:hover{
+        color: grey;
+        cursor:pointer;
+    }
 }
 
 @media screen and (max-width: 1000px) {

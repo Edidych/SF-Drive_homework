@@ -14,30 +14,49 @@
         @include flex;
         border-right: 1px solid #C8C8CF;
         width: 30vw;
+
+        .main-contact-data__blockMail-connectHeader{
+            margin: 0 auto;
+            font-size: 14px;
+            color: #4F4F4F;
+        }
+
+        .main-contact-data__blockMail-connectInfo{
+            font-size: 20px;
+            font-weight: bold;
+            margin: 6px 70px 0px;
+            display: inline-block;
+            white-space: pre;
+
+            &:hover{
+                color: grey;
+                cursor:pointer;
+            }
+        }
     }
 
     .main-contact-data__blockPhone {
         @include flex;
         width: 30vw;
-    }
 
-    [attr="connect-header"] {
-        margin: 0 auto;
-        font-size: 14px;
-        color: #4F4F4F;
-    }
-    
-    [attr~="connect-info"] {
-        font-size: 20px;
-        font-weight: bold;
-        margin: 6px 70px 0px;
-        display: inline-block;
-        white-space: pre;
-    }
+        .main-contact-data__blockPhone-connectHeader{
+            margin: 0 auto;
+            font-size: 14px;
+            color: #4F4F4F;
+        }
 
-    [attr~="changeColorlink"]:hover{
-        color: grey;
-        cursor:pointer;
+        .main-contact-data__blockPhone-connectInfo{
+            font-size: 20px;
+            font-weight: bold;
+            margin: 6px 70px 0px;
+            display: inline-block;
+            white-space: pre;
+
+            &:hover{
+                color: grey;
+                cursor:pointer;
+            }
+        }
     }
 }
 
@@ -52,12 +71,12 @@
             border-right: none;
             text-align: center;  
 
-            [attr="connect-header"] {
+            .main-contact-data__blockMail-connectHeader {
                 margin-top: 20px;
                 font-size: 12px;
             }
         
-            [attr="connect-info"] {
+            .main-contact-data__blockMail-connectInfo {
                 font-size: 14px;
                 margin-top: 5px;
                 white-space: nowrap;               
@@ -66,12 +85,12 @@
 
         .main-contact-data__blockPhone {
             
-            [attr="connect-header"] {
+            .main-contact-data__blockPhone-connectHeader {
                 margin-top: 20px;
                 font-size: 12px;
             }
         
-            [attr="connect-info"] {
+            .main-contact-data__blockPhone-connectInfo {
                 font-size: 14px;
                 margin-top: 5px;
                 white-space: nowrap;               

@@ -4,11 +4,14 @@ const path = require("path");
 
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/index.tsx',
     mode: "development",
     devtool: 'inline-source-map',
     output: {
         filename: "main.js"
+    },
+    resolve: {
+        extensions: [".js", ".jsx", ".json", ".ts", ".tsx"]
     },
     plugins: [
         new MiniCssExtractPlugin(),
@@ -52,10 +55,10 @@ module.exports = {
                 }
             },
             {
-                test: /\.js$/,
+                test: /\.(ts|tsx)$/,
                 exclude: /node_modules/,
                 use: {
-                    loader: "babel-loader"
+                    loader: "awesome-typescript-loader"
                 }
             },
             {

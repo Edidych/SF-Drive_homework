@@ -7,12 +7,12 @@
     margin: 0px 40px;
     padding: 5px 20px;
 
+    &:hover{
+        color: grey;
+        cursor:pointer;
+    }
+
     .header-navbar__btnDesk_btnText {
         font-weight: bold;
     }
-}
-
-[attr~="changeColorlink"]:hover{
-    color: grey;
-    cursor:pointer;
 }

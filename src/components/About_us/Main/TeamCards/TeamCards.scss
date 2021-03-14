@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 
-[attr="main-team-header"] {
+.main-team-header {
     font-size: 48px;
     text-align: center;
     padding-top: 80px;
@@ -42,12 +42,12 @@
     }
 }
 
-[attr="mobileView"] {
+.main-team-cards-mobileView {
     display:none;
 }
 
 @media screen and (max-width: 1000px) {
-    [attr="main-team-header"] {
+    .main-team-header {
         font-size: 24px;
         padding-top: 40px;
         margin: 0 auto;
@@ -78,12 +78,12 @@
             } 
         }
 
-        [attr="deskView"] {
+        .main-team-cards__blockPerson-deskView {
             display: none;
         }
     }
 
-    [attr="mobileView"] {
+    .main-team-cards-mobileView {
         display: flex;
         justify-content: center;
     }

@@ -1,14 +1,14 @@
 import * as React from "react";
 
 import ImgAnswers from "./ImgAnswers/ImgAnswers";
-import Collapsible from "./Collapsible/Collapsible";
+import QuestionsContainer from "./QuestionsContainer/QuestionsContainer";
 
 function Main() {
     return(
         <main>
             <article>
                 <ImgAnswers />
-                <Collapsible />
+                <QuestionsContainer />
             </article>
         </main>
     );

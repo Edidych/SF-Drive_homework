@@ -3,8 +3,8 @@ import { render } from "react-dom";
 
 /* import * as CollapsibleJsCode from './components/Faq/Main/Collapsible/CollapsibleJsCode'; */
 
-import AppFaq from "./components/AppFaq";
+import AppAboutUs from "./components/AppAboutUs";
 
-render(<AppFaq/>, document.getElementById("root"));
+render(<AppAboutUs/>, document.getElementById("root"));
 
 

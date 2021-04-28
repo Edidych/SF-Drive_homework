@@ -1,10 +1,9 @@
 import * as React from "react";
 import { render } from "react-dom";
 
-/* import * as CollapsibleJsCode from './components/Faq/Main/Collapsible/CollapsibleJsCode'; */
 
-import AppAboutUs from "./components/AppAboutUs";
+import AppRegistration from "./components/AppRegistration";
 
-render(<AppAboutUs/>, document.getElementById("root"));
+render(<AppRegistration/>, document.getElementById("root"));
 
 

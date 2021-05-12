@@ -1,12 +1,13 @@
 import * as React from "react";
 
+import "./Footer.scss";
 
 
 function Footer() {
     return(
-        <div>
-            <button>Продолжить</button>
-        </div>
+        <footer className="footer">
+            <button className="footer-button">Продолжить</button>
+        </footer>
     );
 }
 

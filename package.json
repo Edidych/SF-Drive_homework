@@ -45,7 +45,9 @@
     "@babel/preset-env": "latest",
     "@babel/preset-react": "latest",
     "babel-loader": "latest",
+    "classnames": "^2.3.1",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "reset-css": "^5.0.1"
   }
 }

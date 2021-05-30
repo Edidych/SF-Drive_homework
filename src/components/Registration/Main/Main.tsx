@@ -7,7 +7,7 @@ import "./Main.scss";
 
 import HeadersSteps from "./HeadersSteps/HeadersSteps";
 import validationInput from "./validationInput.js";
-import blockForm from "./../../registrConfig.js";
+import blockForm from "./registrConfig.js";
 
 
 const initialValues = blockForm.reduce((result, {fieldName, value}) => {

@@ -80,6 +80,12 @@
                     height: 44px;
                     padding-left: 12px;
                     outline: none;
+
+                    &::-webkit-outer-spin-button,
+                    &::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                    }
         
                     @media screen and (max-width: 1000px) {
                         margin-top: 12px;

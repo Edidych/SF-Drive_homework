@@ -1,44 +1,49 @@
 const blockForm = [
     {   
+        header: "Информация о Вас",
         fieldLabel: "ФИО",
         type: "text",
         width: "large",
         placeholder: "ФИО полностью",
-        header: "Информация о Вас",
-        fieldName: "firstName"
+        fieldName: "firstName",
+        value: ""
     },
     {
         fieldLabel: "Дата рождения",
-        type: "text",
+        type: "number",
         width: "small",
         placeholder: "01.01.1970",
         icon: "calendar",
-        fieldName: "birthtday"
+        fieldName: "birthtday",
+        value: ""
         
     },
     {
         fieldLabel: "Электронная почта",
-        type: "text",
+        type: "email",
         width: "large",
         placeholder: "mail@example.com",
-        fieldName: "email"
+        fieldName: "email",
+        value: ""
     },
     {
         fieldLabel: "Телефон",
         type: "text",
         width: "small",
         placeholder: "+7 900 000-00-00",
-        fieldName: "phone"
+        fieldName: "phone",
+        value: ""
     },
     
 
     {
+        header: 'Паспорт',
         fieldLabel: "Серия и номер",
         type: "text",
         width: "small",
         placeholder: "0000 000000",
-        header: 'Паспорт',
-        fieldName: "seriesPassport"
+        fieldName: "seriesPassport",
+        value: ""
     },
     {
         fieldLabel: "Дата выдачи",
@@ -46,7 +51,8 @@ const blockForm = [
         width: "small",
         placeholder: "01.01.1970",
         icon: "calendar",
-        fieldName: "dateOfIssuePassport"
+        fieldName: "dateOfIssuePassport",
+        value: ""
         
     },
     {
@@ -54,24 +60,27 @@ const blockForm = [
         type: "text",
         width: "large",
         placeholder: "Название органа выдавшего паспорт",
-        fieldName: "issuedPassport"
+        fieldName: "issuedPassport",
+        value: ""
     },
     {
         fieldLabel: "Код подразделения",
         type: "text",
         width: "small",
         placeholder: "000-000",
-        fieldName: "keySubdivisionPassport"
+        fieldName: "keySubdivisionPassport",
+        value: ""
     },
 
 
     {
+        header: 'Водительское удостоверение',
         fieldLabel: "Серия и номер",
         type: "text",
         width: "small",
         placeholder: "0000 000000",
-        header: 'Водительское удостоверение',
-        fieldName: "seriesDriversLicense"
+        fieldName: "seriesDriversLicense",
+        value: ""
     },
     {
         fieldLabel: "Дата выдачи",
@@ -79,19 +88,21 @@ const blockForm = [
         width: "small",
         placeholder: "01.01.1970",
         icon: "calendar",
-        fieldName: "dateOfIssueDriversLicense"
+        fieldName: "dateOfIssueDriversLicense",
+        value: ""
         
     },
 
 
     {
+        header: 'Пароль',
         fieldLabel: "Придумайте пароль",
         type: "password",
         width: "large",
         placeholder: "•••••••••••••••••••",
         icon: "eyes",
-        header: 'Пароль',
-        fieldName: "keyAccount"
+        fieldName: "keyAccount",
+        value: ""
     },
     {
         fieldLabel: "Повторите пароль",
@@ -99,7 +110,8 @@ const blockForm = [
         width: "large",
         placeholder: "•••••••••••••••••••",
         icon: "eyes",
-        fieldName: "repeatKeyAccount"
+        fieldName: "confirmKeyAccount",
+        value: ""
     }
 ]
 export default blockForm;

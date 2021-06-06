@@ -1,0 +1,39 @@
+.formWrapper-block_input {
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 61%;
+    height: 44px;
+    padding-left: 12px;
+    outline: none;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+
+    @media screen and (max-width: 1000px) {
+        margin-top: 12px;
+        width: 100%;
+    }
+
+    &:focus {
+        border: 2px solid #61A199;
+        
+    }
+
+    &:hover {
+        border-color: #61A199;
+    }
+
+}
+
+.formWrapper-block_inputSmall{
+    width: 23%;
+    margin-right: 38%;
+
+    @media screen and (max-width: 1000px) {
+        width: 100%;
+    }
+}

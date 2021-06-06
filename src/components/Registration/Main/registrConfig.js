@@ -1,38 +1,49 @@
+export const fieldComponentType = {
+    text: "text",
+    password: "password",
+    date: "date"
+}
+
 const blockForm = [
     {   
         header: "Информация о Вас",
         fieldLabel: "ФИО",
         type: "text",
-        width: "large",
+        width: "long",
         placeholder: "ФИО полностью",
         fieldName: "firstName",
-        value: ""
+        value: "",
+        component: fieldComponentType.text
     },
     {
         fieldLabel: "Дата рождения",
         type: "number",
-        width: "small",
+        width: "short",
         placeholder: "01.01.1970",
-        icon: "calendar",
+        icon: "./../../../asset/RegistrCalendarInput.svg",
+        descriptionIcon: "Календарь",
         fieldName: "birthtday",
-        value: ""
+        value: "",
+        component: fieldComponentType.date
         
     },
     {
         fieldLabel: "Электронная почта",
         type: "email",
-        width: "large",
+        width: "long",
         placeholder: "mail@example.com",
         fieldName: "email",
-        value: ""
+        value: "",
+        component: fieldComponentType.text
     },
     {
         fieldLabel: "Телефон",
         type: "text",
-        width: "small",
+        width: "short",
         placeholder: "+7 900 000-00-00",
         fieldName: "phone",
-        value: ""
+        value: "",
+        component: fieldComponentType.text
     },
     
 
@@ -40,36 +51,41 @@ const blockForm = [
         header: 'Паспорт',
         fieldLabel: "Серия и номер",
         type: "text",
-        width: "small",
+        width: "short",
         placeholder: "0000 000000",
         fieldName: "seriesPassport",
-        value: ""
+        value: "",
+        component: fieldComponentType.text
     },
     {
         fieldLabel: "Дата выдачи",
         type: "text",
-        width: "small",
+        width: "short",
         placeholder: "01.01.1970",
-        icon: "calendar",
+        icon: "./../../../asset/RegistrCalendarInput.svg",
+        descriptionIcon: "Календарь",
         fieldName: "dateOfIssuePassport",
-        value: ""
+        value: "",
+        component: fieldComponentType.date
         
     },
     {
         fieldLabel: "Кем выдан",
         type: "text",
-        width: "large",
+        width: "long",
         placeholder: "Название органа выдавшего паспорт",
         fieldName: "issuedPassport",
-        value: ""
+        value: "",
+        component: fieldComponentType.text
     },
     {
         fieldLabel: "Код подразделения",
         type: "text",
-        width: "small",
+        width: "short",
         placeholder: "000-000",
         fieldName: "keySubdivisionPassport",
-        value: ""
+        value: "",
+        component: fieldComponentType.text
     },
 
 
@@ -77,19 +93,22 @@ const blockForm = [
         header: 'Водительское удостоверение',
         fieldLabel: "Серия и номер",
         type: "text",
-        width: "small",
+        width: "short",
         placeholder: "0000 000000",
         fieldName: "seriesDriversLicense",
-        value: ""
+        value: "",
+        component: fieldComponentType.text
     },
     {
         fieldLabel: "Дата выдачи",
         type: "text",
-        width: "small",
+        width: "short",
         placeholder: "01.01.1970",
-        icon: "calendar",
+        icon: "./../../../asset/RegistrCalendarInput.svg",
+        descriptionIcon: "Календарь",
         fieldName: "dateOfIssueDriversLicense",
-        value: ""
+        value: "",
+        component: fieldComponentType.date
         
     },
 
@@ -98,20 +117,26 @@ const blockForm = [
         header: 'Пароль',
         fieldLabel: "Придумайте пароль",
         type: "password",
-        width: "large",
+        width: "long",
         placeholder: "•••••••••••••••••••",
-        icon: "eyes",
+        icon: "./../../../asset/RegistrEyesInput.svg",
+        iconChange: "./../../../asset/RegistrEyesInputOpen.svg",
+        descriptionIcon: "Иконка глаза",
         fieldName: "keyAccount",
-        value: ""
+        value: "",
+        component: fieldComponentType.password
     },
     {
         fieldLabel: "Повторите пароль",
         type: "password",
-        width: "large",
+        width: "long",
         placeholder: "•••••••••••••••••••",
-        icon: "eyes",
-        fieldName: "confirmKeyAccount",
-        value: ""
+        icon: "./../../../asset/RegistrEyesInput.svg",
+        iconChange: "./../../../asset/RegistrEyesInputOpen.svg",
+        descriptionIcon: "Иконка глаза",
+        fieldName: "confirmKeyAccount", 
+        value: "",
+        component: fieldComponentType.password
     }
 ]
 export default blockForm;
